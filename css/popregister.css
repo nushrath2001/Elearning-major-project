@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&family=PT+Serif:wght@700&family=Source+Code+Pro:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+box-sizing: border-box;
+font-family: 'Baloo Bhai 2', cursive;
+transition: all .2s linear;
+text-transform: capitalize;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+#open {
+    height: 50px;
+    width: 180px;
+    background:#fff;
+    color: #333;
+    font-size: 25px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    outline: none;
+    border: none;
+    box-shadow: 0 3px 5px rgba(0,0,0,.3);
+}
+
+#open :hover {
+    letter-spacing: 4px;
+    opacity: .8;
+
+}
+
+.model-container  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.3);
+    /* transform: scale(0); */
+}
+
+.model-container .model {
+    height: 400px;
+    max-width: 350px;
+    margin: 0 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.model-container .model span {
+    font-size: 100px;
+    color:rgb(139, 139, 207);
+    padding-bottom: 50;
+    margin: 10px 0;
+    text-shadow: 0 3px 5px rgba(0,0,0,.3),
+                  30px 30px 0px rgb(126, 74, 74)
+                  -30px 30px 0 rgb(43, 5, 5);
+}
+
+.model-container .model h3 {
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+
+}
+
+.model-container .model p {
+color: black;
+margin: 25px 0;
+}
+
+.model-container .model button {
+    height: 35px;
+    width: 120px;
+    background: #333;
+    color: pink;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}
+
+.model-container .model button:hover {
+    opacity: .8;
+}
+
+.model-container .model #close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+
+

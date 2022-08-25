@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(rgba(9, 5, 54, 0.1), rgba(5, 4, 46, 0.7)), url(../images/certificatebg.jpg);
+    width: 100%;
+    height: 100%;
+    /* background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* text-align: center;
+    padding-top: 40px;
+    overflow: hidden; */ 
+
+}
+
+.image img {
+    width:70vw;
+    height:100vh;
+    /* object-fit: cover; */
+    margin-left:230px;
+}
+
+nav .back{
+    border:0;
+}
+
+nav .back span {
+    font-size: 40px;
+    margin-left:-150px;
+    border:none !important;
+}
